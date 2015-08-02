@@ -669,6 +669,19 @@ section#resume {
     background-color: #1f1f1f;
     padding:0;
 }
+section#resume h2{
+    color:#bbb;
+}
+.resumedldiv{
+    position:relative;
+}
+.resumediv{
+    position:absolute;
+    display:block;
+    width:300px;
+    height:300px;
+    bottom:0px;
+}
 section#contact {
     background-color: #1f1f1f;
     background-position: center;

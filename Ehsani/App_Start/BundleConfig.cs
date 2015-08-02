@@ -17,7 +17,9 @@ namespace Ehsani
                         "~/Scripts/hammer.min.js",
                         "~/Scripts/classie.js",
                         "~/Scripts/site.js",
-                        "~/Scripts/cbpAnimatedHeader.min.js"));
+                        "~/Scripts/sweetalert.min.js",
+                        "~/Scripts/cbpAnimatedHeader.min.js",
+                        "~/Scripts/css3-animate-it.js"));
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
@@ -30,7 +32,10 @@ namespace Ehsani
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/fa/css/font-awesome.min.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/sweetalert.css",
+                      "~/Content/css3-animate-it/css/animations.css",
+                      "~/Content/css3-animate-it/css/animations-ie-fix.css"));
         }
     }
 }

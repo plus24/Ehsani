@@ -123,7 +123,7 @@ $(function () {
     $(window).scroll(function () {
         var windowScrollTop = $(this).scrollTop();
         var pos = $("#keyskills").offset().top;
-        if (windowScrollTop >= pos) {
+        if (windowScrollTop >= pos-5) {
             gwdev.refresh(95);
             gcs.refresh(85);
             gscripts.refresh(80);
@@ -166,13 +166,7 @@ function sendmessage() {
         url: "/Home/SendMsg",
         data: {name:name,email:email,phone:phone,message:message},
         success: function (data) {
-            //alert(data);
-            //$('#contactform').html("<div id='message'></div>");
-            //$('#message').html("<p>Your message has been sent!<br /> Thank you - I will be in touch soon.</p>")
-            //.hide()
-            //.fadeIn(1500, function () {
-            //    $('#message');
-            //});
+            swal("Good job!", "Thanks for your message! I will be in touch with you as soon as possible...", "success");
         }
     });
 }
