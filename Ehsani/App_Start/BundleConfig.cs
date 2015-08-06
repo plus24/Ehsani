@@ -34,8 +34,7 @@ namespace Ehsani
                       "~/Content/fa/css/font-awesome.min.css",
                       "~/Content/site.css",
                       "~/Content/sweetalert.css",
-                      "~/Content/css3-animate-it/css/animations.css",
-                      "~/Content/css3-animate-it/css/animations-ie-fix.css"));
+                      "~/Content/css3-animate-it/css/animations.css"));
         }
     }
 }
