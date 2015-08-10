@@ -215,8 +215,6 @@
     <Content Include="Content\Images\TV-20140510.jpg" />
     <Content Include="Content\Images\WebConf.jpg" />
     <Content Include="Content\sweetalert.css" />
-    <Content Include="Content\Videos\000%281%29.mp4" />
-    <Content Include="Content\Videos\000.mp4" />
     <Content Include="Content\Videos\Masoud-Ehsani-8-Behesht.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
