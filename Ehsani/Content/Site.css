@@ -213,8 +213,9 @@ h6 {
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-weight: 400;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         color: #fff;
+        font-size: 14px;
     }
 
         .navbar-default .nav li a:hover,
@@ -237,7 +238,7 @@ h6 {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 15px 0;
+        padding: 10px 0;
         border: 0;
         background-color: rgba(61, 61, 61, 0.75);
         -webkit-transition: padding .3s;
@@ -335,6 +336,7 @@ header {
 
 section {
     padding: 100px 0;
+    overflow-x: hidden;
 }
 
     section h2.section-heading {

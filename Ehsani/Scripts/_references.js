@@ -5,6 +5,7 @@
 /// <reference path="classie.js" />
 /// <reference path="css3-animate-it.js" />
 /// <reference path="hammer.min.js" />
+/// <reference path="jquery.easy-pie-chart.js" />
 /// <reference path="jquery.validate.js" />
 /// <reference path="jquery.validate.unobtrusive.js" />
 /// <reference path="jquery-2.1.4.js" />
